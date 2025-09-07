@@ -238,9 +238,10 @@ function getGlobalStats() {
 // ===== this is where the rendering happens =====
 function renderGlobalStats() {
     const s = getGlobalStats();
+    const uTowers = Object.values(state.towers).filter(t => difficultyDict[t.acronym] !== undefined).length;
     globalStatsDiv.classList.remove("hidden");
     globalStatsDiv.innerHTML = `<h3>Global Stats</h3>
-    <div class="small">Total completions: <strong>${s.totalCompletions}</strong> - Unique towers: <strong>${s.totalTowers}</strong> - Unique players: <strong>${s.totalUsers}</strong></div>
+    <div class="small">Total completions: <strong>${s.totalCompletions}</strong> - Unique towers: <strong>${uTowers}</strong> - Unique players: <strong>${s.totalUsers}</strong></div>
     <div class="small">Avg towers/player: <strong>${s.avgPerUser}</strong></div>`;
 }
 
