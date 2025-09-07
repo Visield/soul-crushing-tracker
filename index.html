@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Tower Statistics</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div id="app">
+            <header>
+                <h1>Tower Statistics</h1>
+            </header>
+            <section id="globalStats"></section>
+            <section id="search-section">
+                <input type="text" id="searchBar" placeholder="Search Towers..." />
+
+                <div id="filters">
+                    <label for="sortBy">Sort By:</label>
+                    <select id="sortBy">
+                        <option value="none" selected>None</option>
+                        <option value="completions">Completions</option>
+                        <option value="avgTime">Average Time</option>
+                        <option value="difficulty">Difficulty</option>
+                    </select>
+
+                    <button id="sortOrder" title="Toggle Sort Order">⬇️</button>
+                    <label>
+                        <input type="checkbox" id="towerRushToggle" checked>
+                        Show Tower Rushes
+                    </label>
+                    <button id="resetFilters">Reset Search Filters</button>
+                </div>
+            </section>
+
+            <main>
+                <aside id="towerList"></aside>
+                <section id="towerDetails">
+                    <p>select a tower to view details</p>
+                </section>
+            </main>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
