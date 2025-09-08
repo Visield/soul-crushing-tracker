@@ -1,26 +1,13 @@
-this is just a random thing i made cuz i was bored
+# Soul Crushing Completion Tracker
+To Use: go to sctracker.vercel.app
 
-no this is not optimized
+## Future Updates (hopefully):
+ - support for tea, cscd, etc.
+ - automatically add completions (this one is gonna be hard)
+ - a leaderboard similar to sclp with multiple categories
+ - make the buttons look better i was high while styling those
+ - support for searching by acronym
+ - display the numeric difficulty of each tower inside that towers stats
+ - more global stats because why not
 
-
-
-
-
-upcoming updates (stuff i wanna try and add):
-
-
-
-support for TEA, CSCD, stuff like that
-
-automatically add completions
-
-leaderboard (similar to SCLP) for amount of towers beaten, towers beaten per difficulty, a custom "tower points" think i will make up, stuff like that
-
-make the buttons look better they look ugly
-
-support for searching by acronym
-
-display the numeric difficulty of each tower inside that towers stats
-
-more global stats
-
+this isnt licensed and idfk what that means but i thought i should put that here
