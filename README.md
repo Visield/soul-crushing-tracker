@@ -1,4 +1,5 @@
 this is just a random thing i made cuz i was bored
+
 no this is not optimized
 
 
@@ -6,6 +7,8 @@ no this is not optimized
 
 
 upcoming updates (stuff i wanna try and add):
+
+
 
 support for TEA, CSCD, stuff like that
 
